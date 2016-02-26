@@ -14,6 +14,7 @@
 		BCED64FF1C80222D00F8BC3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCED64FE1C80222D00F8BC3D /* Assets.xcassets */; };
 		BCED65021C80222D00F8BC3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCED65001C80222D00F8BC3D /* LaunchScreen.storyboard */; };
 		BCED65101C8026FA00F8BC3D /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = BCED650F1C8026FA00F8BC3D /* Student.m */; };
+		BCED650C1C8025B300F8BC3D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BCED650B1C8025B300F8BC3D /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		BCED65031C80222D00F8BC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCED650E1C8026FA00F8BC3D /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		BCED650F1C8026FA00F8BC3D /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		BCED650A1C8025B300F8BC3D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		BCED650B1C8025B300F8BC3D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				BCED650D1C8026DB00F8BC3D /* B */,
+				BCED65091C80259100F8BC3D /* A */,
 				BCED64F51C80222D00F8BC3D /* AppDelegate.h */,
 				BCED64F61C80222D00F8BC3D /* AppDelegate.m */,
 				BCED64F81C80222D00F8BC3D /* ViewController.h */,
@@ -90,6 +94,15 @@
 				BCED650F1C8026FA00F8BC3D /* Student.m */,
 			);
 			name = B;
+            sourceTree = "<group>";
+        };
+		BCED65091C80259100F8BC3D /* A */ = {
+			isa = PBXGroup;
+			children = (
+				BCED650A1C8025B300F8BC3D /* Person.h */,
+				BCED650B1C8025B300F8BC3D /* Person.m */,
+			);
+			name = A;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +177,7 @@
 			files = (
 				BCED64FA1C80222D00F8BC3D /* ViewController.m in Sources */,
 				BCED64F71C80222D00F8BC3D /* AppDelegate.m in Sources */,
+				BCED650C1C8025B300F8BC3D /* Person.m in Sources */,
 				BCED64F41C80222D00F8BC3D /* main.m in Sources */,
 				BCED65101C8026FA00F8BC3D /* Student.m in Sources */,
 			);
